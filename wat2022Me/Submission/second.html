@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second.Html</title>
+</head>
+<body>
+    <h1>More Fundamentals of HTML</h1>
+    <h3>Tables</h3>
+    <p>Tables should only be used for tabulated data and for page layout. As with all other HTML elements tables should be styled with CSS<br>
+        but we will bend the rule slightly and use the border attribute for this excercise<br><br></p>
+        &nbsp;&nbsp;This caption helps<br>
+        screen reader users to<br>
+        &nbsp;understand the table<br>
+    <table border="solid">
+        <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+        </tr>
+        <tr>
+            <td>This</td>
+            <td>That</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td>Which</td>
+            <td>What</td>
+            <td>When</td>
+        </tr>
+    </table>
+    <h1>Lists</h1>
+    <p>Lists are very important in web page design, they are for example the basis of page navigation</p>
+    <h3>Unordered Lists</h3>
+    <ul>
+        <li>blue</li>
+        <li>red</li>
+        <li>green</li>
+    </ul>
+    <h3>Ordered Lists</h3>
+    <ol>
+        <li>blue</li>
+        <li>red</li>
+        <li>green</li>
+    </ol>
+    <h3>Nested Lists</h3>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>three</li>
+    </ol>
+    <h1>Forms</h1>
+    <h3>A simple login form</h3>
+    <form>
+        Username:<input type="text" name="username" required><!--placeholder="Username" tyo dekhauna ho like value-->
+        Password:<input type="password" name="password" placeholder="Password" required>
+        <input type="submit" name="submit" value="Login">
+    </form>
+   <h3>Other common form elements and grouping by fieldset</h3>
+   <form>
+    <fieldset>
+        <legend>Enter your details</legend>
+            Username:<input type="text" name="username" required><!--placeholder="Username" tyo dekhauna ho like value-->
+            Password:<input type="password" name="password" placeholder="Password" required>
+        </fieldset>
+        <fieldset>
+        <legend>Pizza Selection</legend>
+            Size:<input type="radio" name="small" value="small">small
+                <input type="radio" name="medium" value="medium" >medium
+                <input type="radio" name="large" value="large">large<br>
+            Topping:  <select name="select">
+                <option value="select">Please Select</option>
+                <option value="paneer">Paneer</option>
+                <option value="Chicken">Chicken</option>
+                <option value="Cheese">Cheese</option>
+                <option value="Mutton">Muttonr</option>
+                </select><br>
+            Extra:<input type="checkbox"  value="Parmesan">Parmesan
+            <input type="checkbox" value="Olives">Olives
+            <input type="checkbox" value="topp">Capers
+        </fieldset>
+            <input type="submit" name="submit" value="Submit">
+            <input type="reset" name="reset" value="clear">
+    </form>
+</body>
+</html>

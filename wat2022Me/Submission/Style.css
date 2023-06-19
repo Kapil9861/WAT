@@ -1,0 +1,26 @@
+.size h3{
+   font-family: fantasy;
+}
+strong{
+   color: blueviolet;
+   letter-spacing: 7px;
+   font-weight: 200;
+}
+.box ol li{
+   list-style-type: none;
+   margin-left: 50px;
+   display: inline;
+   padding: 1%;
+   background-color: grey;
+   border-style: solid;
+   border-color: rgb(28, 173, 28);
+}
+.box ul li{
+   list-style-type: none;
+   display: inline;
+   padding: 2%;
+   background-color: none;
+   border-style: solid;
+   margin-left: 25px;
+   border-color: rgb(28, 173, 28);
+}
